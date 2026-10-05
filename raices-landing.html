@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Raíces — Comida casera lista para disfrutar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600&family=Petit+Formal+Script&family=Public+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="raices-landing.css">
+</head>
+<body>
+
+<header id="site-header">
+  <nav class="wrap">
+    <a href="#inicio" class="brand">Raíces</a>
+
+    <input type="checkbox" id="menuToggle" class="menu-toggle">
+
+    <ul class="nav-links" id="navLinks">
+      <li class="close-row"><label for="menuToggle" class="close-label" aria-label="Cerrar menú">✕</label></li>
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#viandas">Viandas</a></li>
+      <li><a href="#congelados">Congelados</a></li>
+      <li><a href="#como-funciona">Cómo funciona</a></li>
+      <li><a href="#sobre">Sobre Raíces</a></li>
+      <li><a href="#contacto" class="nav-cta">Contactar</a></li>
+    </ul>
+
+    <label for="menuToggle" class="nav-overlay" aria-hidden="true"></label>
+    <button class="burger" id="burgerBtn" aria-label="Abrir menú" aria-expanded="false" type="button">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+</header>
+
+<!-- ============ INICIO ============ -->
+<section class="hero" id="inicio">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="kicker">Raíces</span>
+      <h1>Comida casera<br>lista para disfrutar.</h1>
+      <p class="lead">Viandas, congelados y sabores hechos con dedicación, para que resuelvas tus comidas de todos los días sin perder el sabor de lo casero.</p>
+      <a href="https://wa.me/5491100000000?text=Hola!%20Quiero%20ver%20el%20men%C3%BA" class="btn btn-primary" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.9-4.45 9.9-9.9C21.96 6.45 17.5 2 12.04 2zm5.8 14.07c-.24.68-1.4 1.3-1.93 1.38-.5.08-1.12.11-1.8-.11-.42-.13-.95-.3-1.64-.6-2.88-1.24-4.76-4.13-4.9-4.32-.14-.19-1.17-1.56-1.17-2.98s.73-2.11 1-2.4c.24-.27.53-.34.7-.34h.5c.16 0 .38-.02.58.45.24.56.8 1.95.87 2.09.07.14.11.3.02.49-.09.19-.14.3-.27.46-.14.16-.29.36-.42.48-.14.14-.28.28-.12.55.16.27.7 1.16 1.51 1.88 1.04.93 1.91 1.22 2.18 1.36.27.14.42.11.58-.07.16-.18.68-.79.86-1.06.18-.27.36-.22.6-.13.24.09 1.53.72 1.79.85.27.13.44.2.5.31.07.13.07.7-.16 1.37z"/></svg>
+        Pedí tu menú por WhatsApp
+      </a>
+    </div>
+
+    <!-- PLACEHOLDER DE FOTO: reemplazar por una foto del plato principal -->
+    <div class="ph hero-photo">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="8.5" cy="9.5" r="1.5"/><path d="M21 16l-5-5-4 4-3-3-5 5"/></svg>
+      <span>Foto del plato principal</span>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <div class="features">
+      <div class="feature reveal">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 11a8 8 0 0 1 16 0z"/><path d="M4 11h16v2a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z"/><path d="M12 11V5"/></svg></div>
+        <h3>Comida casera</h3>
+        <p>Hecha como en casa, con ingredientes reales.</p>
+      </div>
+      <div class="feature reveal">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg></div>
+        <h3>Práctico</h3>
+        <p>Platos listos para ahorrarte tiempo.</p>
+      </div>
+      <div class="feature reveal">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7-4.5-9.5-9A5.5 5.5 0 0 1 12 6a5.5 5.5 0 0 1 9.5 6c-2.5 4.5-9.5 9-9.5 9z"/></svg></div>
+        <h3>Rico y saludable</h3>
+        <p>Equilibrio y sabor en cada preparación.</p>
+      </div>
+      <div class="feature reveal">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 1 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></div>
+        <h3>Hecho con amor</h3>
+        <p>Cocinamos cada día para vos.</p>
+      </div>
+    </div>
+
+    <div class="kitchen">
+      <!-- PLACEHOLDER DE FOTO: ambiente de cocina -->
+      <div class="ph kitchen-photo">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="8.5" cy="9.5" r="1.5"/><path d="M21 16l-5-5-4 4-3-3-5 5"/></svg>
+        <span>Foto de la cocina</span>
+      </div>
+      <div>
+        <h2>Nuestra cocina</h2>
+        <p>En Raíces creemos que comer rico también puede ser práctico. Elaboramos platos caseros con ingredientes seleccionados, pensando en ayudarte a resolver tus comidas de todos los días sin perder el sabor de lo hecho en casa.</p>
+        <a href="#sobre" class="btn btn-ghost">Conocé más</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ VIANDAS ============ -->
+<section class="catalog-section" id="viandas">
+  <div class="wrap">
+    <div class="catalog-banner ph-dark">
+      <!-- PLACEHOLDER DE FOTO: banner oscuro con foto de comida de fondo -->
+      <p class="eyebrow">Menú</p>
+      <h2>Viandas semanales</h2>
+      <p>Platos caseros, variados y equilibrados para tu semana.</p>
+    </div>
+
+    <div class="tabs" id="tabs">
+      <button class="cat-tab active" data-filter="all">Todas</button>
+      <button class="cat-tab" data-filter="clasica">Clásicas</button>
+      <button class="cat-tab" data-filter="liviana">Livianas</button>
+      <button class="cat-tab" data-filter="vegetariana">Vegetarianas</button>
+    </div>
+
+    <div class="menu-grid" id="viandasGrid">
+      <div class="card" data-cat="clasica">
+        <div class="ph card-photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="8.5" cy="9.5" r="1.5"/><path d="M21 16l-5-5-4 4-3-3-5 5"/></svg><span>Lasaña de carne</span></div>
+        <div class="card-body">
+          <h3>Lasaña de carne</h3>
+          <p class="desc">Carne picada, salsa casera, bechamel y queso gratinado.</p>
+          <button class="btn-sm c-terracota" type="button" onclick="pedir('Lasaña de carne')">Pedir por WhatsApp</button>
+        </div>
+      </div>
+
+      <div class="card" data-cat="clasica">
+        <div class="ph card-photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="8.5" cy="9.5" r="1.5"/><path d="M21 16l-5-5-4 4-3-3-5 5"/></svg><span>Pastel de papa</span></div>
+        <div class="card-body">
+          <h3>Pastel de papa</h3>
+          <p class="desc">Carne suave, puré cremoso y ese sabor de comida de hogar.</p>
+          <button class="btn-sm c-verde" type="button" onclick="pedir('Pastel de papa')">Pedir por WhatsApp</button>
+        </div>
+      </div>
+
+      <div class="card" data-cat="liviana">
+        <div class="ph card-photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="8.5" cy="9.5" r="1.5"/><path d="M21 16l-5-5-4 4-3-3-5 5"/></svg><span>Pollo al horno</span></div>
+        <div class="card-body">
+          <h3>Pollo al horno con vegetales</h3>
+          <p class="desc">Jugoso pollo al horno con verduras asadas.</p>
+          <button class="btn-sm c-mostaza" type="button" onclick="pedir('Pollo al horno con vegetales')">Pedir por WhatsApp</button>
+        </div>
+      </div>
+
+      <div class="card" data-cat="clasica">
+        <div class="ph card-photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="8.5" cy="9.5" r="1.5"/><path d="M21 16l-5-5-4 4-3-3-5 5"/></svg><span>Ñoquis con tuco</span></div>
+        <div class="card-body">
+          <h3>Ñoquis con tuco</h3>
+          <p class="desc">Ñoquis caseros con salsa de tomate natural y albahaca.</p>
+          <button class="btn-sm c-terracota" type="button" onclick="pedir('Ñoquis con tuco')">Pedir por WhatsApp</button>
+        </div>
+      </div>
+
+      <div class="card" data-cat="vegetariana">
+        <div class="ph card-photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="8.5" cy="9.5" r="1.5"/><path d="M21 16l-5-5-4 4-3-3-5 5"/></svg><span>Berenjenas rellenas</span></div>
+        <div class="card-body">
+          <h3>Berenjenas rellenas</h3>
+          <p class="desc">Rellenas de verduras, salsa y gratinadas con queso.</p>
+          <button class="btn-sm c-verde" type="button" onclick="pedir('Berenjenas rellenas')">Pedir por WhatsApp</button>
+        </div>
+      </div>
+
+      <div class="card" data-cat="liviana">
+        <div class="ph card-photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="8.5" cy="9.5" r="1.5"/><path d="M21 16l-5-5-4 4-3-3-5 5"/></svg><span>Wok de verduras</span></div>
+        <div class="card-body">
+          <h3>Wok de verduras y pollo</h3>
+          <p class="desc">Salteado de verduras frescas con pollo y salsa de soja.</p>
+          <button class="btn-sm c-mostaza" type="button" onclick="pedir('Wok de verduras y pollo')">Pedir por WhatsApp</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="more-wrap">
+      <a href="#congelados" class="btn btn-primary">Ver más opciones</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONGELADOS ============ -->
+<section class="catalog-section" id="congelados">
+  <div class="wrap">
+    <div class="catalog-banner ph-dark">
+      <!-- PLACEHOLDER DE FOTO: banner oscuro de congelados -->
+      <h2>Congelados Raíces</h2>
+      <p>Tené siempre a mano platos caseros para cualquier momento.</p>
+    </div>
+
+    <div class="menu-grid">
+      <div class="card">
+        <div class="ph card-photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="8.5" cy="9.5" r="1.5"/><path d="M21 16l-5-5-4 4-3-3-5 5"/></svg><span>Milanesas caseras</span></div>
+        <div class="card-body">
+          <h3>Milanesas caseras</h3>
+          <p class="desc">De carne, pollo o cerdo. Empanadas y listas para cocinar.</p>
+          <button class="btn-sm c-terracota" type="button" onclick="pedir('Milanesas caseras')">Pedir por WhatsApp</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="ph card-photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="8.5" cy="9.5" r="1.5"/><path d="M21 16l-5-5-4 4-3-3-5 5"/></svg><span>Canelones</span></div>
+        <div class="card-body">
+          <h3>Canelones</h3>
+          <p class="desc">Rellenos de carne con suave salsa casera y bechamel.</p>
+          <button class="btn-sm c-verde" type="button" onclick="pedir('Canelones')">Pedir por WhatsApp</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="ph card-photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="8.5" cy="9.5" r="1.5"/><path d="M21 16l-5-5-4 4-3-3-5 5"/></svg><span>Tartas</span></div>
+        <div class="card-body">
+          <h3>Tartas</h3>
+          <p class="desc">Variedad de sabores: verdura, jamón y queso, pollo, carne.</p>
+          <button class="btn-sm c-mostaza" type="button" onclick="pedir('Tartas')">Pedir por WhatsApp</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="ph card-photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="8.5" cy="9.5" r="1.5"/><path d="M21 16l-5-5-4 4-3-3-5 5"/></svg><span>Pastas frescas</span></div>
+        <div class="card-body">
+          <h3>Pastas frescas</h3>
+          <p class="desc">Variedad de pastas listas para cocinar.</p>
+          <button class="btn-sm c-terracota" type="button" onclick="pedir('Pastas frescas')">Pedir por WhatsApp</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="ph card-photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="8.5" cy="9.5" r="1.5"/><path d="M21 16l-5-5-4 4-3-3-5 5"/></svg><span>Salsas caseras</span></div>
+        <div class="card-body">
+          <h3>Salsas caseras</h3>
+          <p class="desc">Tuco, bolognesa, fileto y más.</p>
+          <button class="btn-sm c-verde" type="button" onclick="pedir('Salsas caseras')">Pedir por WhatsApp</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="ph card-photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="8.5" cy="9.5" r="1.5"/><path d="M21 16l-5-5-4 4-3-3-5 5"/></svg><span>Otros productos</span></div>
+        <div class="card-body">
+          <h3>Otros productos</h3>
+          <p class="desc">Consultá por opciones disponibles.</p>
+          <button class="btn-sm c-mostaza" type="button" onclick="pedir('Otros productos')">Pedir por WhatsApp</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="more-wrap">
+      <a href="https://wa.me/5491100000000?text=Hola!%20Quiero%20consultar%20productos" class="btn btn-primary" target="_blank" rel="noopener">Consultar todos los productos por WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CÓMO FUNCIONA ============ -->
+<section class="steps-section" id="como-funciona">
+  <div class="wrap">
+    <p class="eyebrow">Proceso</p>
+    <h2 class="center">Así de simple</h2>
+    <div class="steps">
+      <div class="step reveal">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 11a8 8 0 0 1 16 0z"/><path d="M4 11h16v2a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z"/></svg></div>
+        <h3>1. Elegís tus platos</h3>
+        <p>Mirá el catálogo y elegí lo que más te guste.</p>
+      </div>
+      <div class="step reveal">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.9-4.45 9.9-9.9C21.96 6.45 17.5 2 12.04 2z"/></svg></div>
+        <h3>2. Nos escribís</h3>
+        <p>Hacé tu pedido por WhatsApp.</p>
+      </div>
+      <div class="step reveal">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg></div>
+        <h3>3. Coordinamos tu entrega</h3>
+        <p>Te confirmamos el día y horario.</p>
+      </div>
+      <div class="step reveal">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 1 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></div>
+        <h3>4. Disfrutás</h3>
+        <p>Comida casera lista para vos.</p>
+      </div>
+    </div>
+
+    <!-- PLACEHOLDER DE FOTO: banner con la frase destacada -->
+    <div class="ph ph-dark quote-banner">
+      <div class="quote-card">
+        <p>"Cocinamos cada día para que comas rico, sin complicaciones."</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SOBRE RAÍCES ============ -->
+<section class="about-section" id="sobre">
+  <div class="wrap">
+    <div class="about-grid">
+      <div>
+        <h2><span class="leaf"></span> Sobre Raíces</h2>
+        <p>Raíces nació del amor por la cocina casera y las ganas de ayudar a las personas a resolver sus comidas diarias con opciones ricas, reales y hechas con dedicación.</p>
+        <p>Seleccionamos ingredientes de calidad, cocinamos en el día y preparamos cada plato como si fuera para nuestra propia familia.</p>
+        <p class="strong">Gracias por elegirnos y ser parte de esta comunidad.</p>
+      </div>
+      <!-- PLACEHOLDER DE FOTO: persona con delantal sosteniendo un plato -->
+      <div class="ph about-photo">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="8.5" cy="9.5" r="1.5"/><path d="M21 16l-5-5-4 4-3-3-5 5"/></svg>
+        <span>Foto del equipo</span>
+      </div>
+    </div>
+
+    <div class="values">
+      <div class="value">Ingredientes seleccionados</div>
+      <div class="value">Cocción diaria</div>
+      <div class="value">Hecho con amor</div>
+      <div class="value">Compromiso real</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACTO ============ -->
+<section class="contact" id="contacto">
+  <div class="wrap contact-inner">
+    <div>
+      <p class="eyebrow">Contacto</p>
+      <h2>¿Tenés dudas o querés hacer un pedido?</h2>
+      <p class="lead">Escribinos por WhatsApp, estamos para ayudarte.</p>
+      <a href="https://wa.me/5491100000000?text=Hola!%20Quiero%20hacer%20un%20pedido" class="btn btn-mostaza" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.9-4.45 9.9-9.9C21.96 6.45 17.5 2 12.04 2zm5.8 14.07c-.24.68-1.4 1.3-1.93 1.38-.5.08-1.12.11-1.8-.11-.42-.13-.95-.3-1.64-.6-2.88-1.24-4.76-4.13-4.9-4.32-.14-.19-1.17-1.56-1.17-2.98s.73-2.11 1-2.4c.24-.27.53-.34.7-.34h.5c.16 0 .38-.02.58.45.24.56.8 1.95.87 2.09.07.14.11.3.02.49-.09.19-.14.3-.27.46-.14.16-.29.36-.42.48-.14.14-.28.28-.12.55.16.27.7 1.16 1.51 1.88 1.04.93 1.91 1.22 2.18 1.36.27.14.42.11.58-.07.16-.18.68-.79.86-1.06.18-.27.36-.22.6-.13.24.09 1.53.72 1.79.85.27.13.44.2.5.31.07.13.07.7-.16 1.37z"/></svg>
+        Hablar por WhatsApp
+      </a>
+      <div class="social-row">
+        <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg></a>
+        <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6"><path d="M14 9h3V5h-3a4 4 0 0 0-4 4v3H7v4h3v6h4v-6h3l1-4h-4V9a1 1 0 0 1 1-1z"/></svg></a>
+      </div>
+    </div>
+
+    <div class="info-card">
+      <div class="info-row">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M3 9h18M8 2v4M16 2v4"/></svg></div>
+        <div>
+          <strong>Días de entrega</strong>
+          <span>Lunes a Sábados</span>
+        </div>
+      </div>
+      <div class="info-row">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div>
+        <div>
+          <strong>Horarios</strong>
+          <span>10:00 a 13:30 hs</span>
+          <span>17:00 a 20:30 hs</span>
+        </div>
+      </div>
+      <div class="info-row">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7-4.5-9.5-9A5.5 5.5 0 0 1 12 6a5.5 5.5 0 0 1 9.5 6c-2.5 4.5-9.5 9-9.5 9z"/><circle cx="12" cy="10" r="2"/></svg></div>
+        <div>
+          <strong>Zona de reparto</strong>
+          <span>Consultá tu zona de cobertura</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">Gracias por elegir comida casera, hecha con raíces. ♡</div>
+</footer>
+
+<script>
+  // --- Nav: fondo sólido al scrollear ---
+  const header = document.getElementById('site-header');
+  window.addEventListener('scroll', () => {
+    header.classList.toggle('scrolled', window.scrollY > 20);
+  });
+
+  // --- Menú mobile (checkbox + sincronizado con el botón hamburguesa) ---
+  const menuToggle = document.getElementById('menuToggle');
+  const burgerBtn = document.getElementById('burgerBtn');
+  burgerBtn.addEventListener('click', () => {
+    menuToggle.checked = !menuToggle.checked;
+    burgerBtn.setAttribute('aria-expanded', menuToggle.checked);
+  });
+  document.querySelectorAll('#navLinks a').forEach(a => a.addEventListener('click', () => {
+    menuToggle.checked = false;
+    burgerBtn.setAttribute('aria-expanded', false);
+  }));
+
+  // --- Filtro de categorías en Viandas ---
+  const tabs = document.querySelectorAll('#tabs .cat-tab');
+  const cards = document.querySelectorAll('#viandasGrid .card');
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      tabs.forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      const filter = tab.dataset.filter;
+      cards.forEach(card => {
+        const show = filter === 'all' || card.dataset.cat === filter;
+        card.classList.toggle('hide', !show);
+      });
+    });
+  });
+
+  // --- Botón "Pedir por WhatsApp" de cada card: arma el link con el nombre del plato ---
+  function pedir(nombrePlato){
+    const texto = encodeURIComponent('Hola! Quiero pedir: ' + nombrePlato);
+    window.open('https://wa.me/5491100000000?text=' + texto, '_blank', 'noopener');
+  }
+
+  // --- Reveal on scroll ---
+  const revealEls = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window) {
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in');
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15 });
+    revealEls.forEach(el => io.observe(el));
+  } else {
+    revealEls.forEach(el => el.classList.add('in'));
+  }
+</script>
+
+</body>
+</html>
